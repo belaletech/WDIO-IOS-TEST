@@ -7,7 +7,7 @@ export const config: WebdriverIO.Config = {
     maxInstances: 1,
     services: ['lambdatest'],
     user: 'belalahmad',
-    key: 'LT_7VDCei73IDbSY28Yxz9fbocgnw9Ja4ryhwGP4HccHy967Rc',
+    key: 'LTxxxxxxxxxxxxxx',
 
     capabilities: [
         {
