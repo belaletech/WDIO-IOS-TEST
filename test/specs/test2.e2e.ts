@@ -6,27 +6,6 @@ describe('iOS App Automation - Network Throttling', () => {
         await browser.pause(7000); // Wait 7 sec for app to fully load
 
         console.log('Opening app...');
-         // Fetching current geolocation from the device
-        // const location = await driver.getGeoLocation();
-
-        // const location = await driver.execute('mobile: location');
-        // console.log(location);
-        
-// // Fetching current GPS location from the device
-// const location = await browser.call(async () => {
-//     return await browser.sendCommand(
-//         '/location',
-//         'GET',
-//         {} // Required third parameter
-//     );
-// });
-
-// console.log(`📍 Location response: ${JSON.stringify(location)}`);
-
-
-
-
-
         const checkbox = await $('//*[@name="checkbox"]');
         const signInButton = await $('//*[@name="login"]');
 
@@ -80,7 +59,7 @@ describe('iOS App Automation - Network Throttling', () => {
             },
             {
                 headers: {
-                    Authorization: 'Basic YmVsYWxhaG1hZDpMVF83VkRDZWk3M0lEYlNZMjhZeHo5ZmJvY2dudzlKYTRyeWh3R1A0SGNjSHk5NjdSYw==',
+                    Authorization: 'Basic xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
                     'Content-Type': 'application/json'
                 }
             }
@@ -146,3 +125,4 @@ describe('iOS App Automation - Network Throttling', () => {
         }
     });
 });
+
